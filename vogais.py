@@ -1,15 +1,16 @@
 def vogal(x):
-    if x == 'a' or 'A':
+    if x.__eq__('a') or x.__eq__('A'):
         return True
-    elif x == 'e' or 'E':
+    elif x.__eq__('e') or x.__eq__('E'):
         return True
-    elif x == 'i' or 'I':
+    elif x.__eq__('i') or x.__eq__('I'):
         return True
-    elif x == 'o' or 'O':
+    elif x.__eq__('o') or x.__eq__('O'):
         return True
-    elif x == 'u' or 'U':
+    elif x.__eq__('u') or x.__eq__('U'):
         return True
     else:
         return False
 
-print(vogal('e'))
+
+print(vogal('Q'))
