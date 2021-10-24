@@ -46,3 +46,5 @@ def testa_numero_binominal():
 
 print(numero_binomial(6, 7))
 testa_numero_binominal()
+
+

@@ -1,4 +1,4 @@
-def ePrimo(k):
+def maior_primo(k):
     i = 0
     while i < k:
         i = i + 1
@@ -7,4 +7,4 @@ def ePrimo(k):
     return mp
 
 
-print(ePrimo(100))
+
