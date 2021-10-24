@@ -7,7 +7,7 @@ def campeonato():
     for i in range(1, 4):
 
         print(" ")
-        print("****** Rodada", i, "******")
+        print("****** Rodada", i, "*******")
         print(" ")
 
         vencedor = partida()
