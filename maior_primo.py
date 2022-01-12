@@ -3,8 +3,9 @@ def maior_primo(k):
     while i < k:
         i = i + 1
         if i % 2 != 0 and i % 3 != 0 and i % 5 != 0:
+            print(i)
             mp = i
     return mp
 
 
-
+(maior_primo(100))
