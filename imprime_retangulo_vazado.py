@@ -5,7 +5,7 @@ aux = coluna
 
 while linha != 0:
     while coluna != 0:
-        print('#', end='\t')
+        print('#', end='')
         coluna = coluna - 1
     linha = linha - 1
     print()
